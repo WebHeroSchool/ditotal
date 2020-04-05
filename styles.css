@@ -1,0 +1,165 @@
+/*body*/
+.body {
+  width: 1440px;
+  height: 2700px;
+  font-weight: medium;
+  font-family: "Montserrat", sans-serif;
+}
+  
+/* header */
+.header {
+  position: absolute;
+  width: 461px;
+  height: 900px;
+  background: black;
+}
+
+.logo {
+  position: absolute;
+  width: 98px;
+  height: 37px;
+  left: 52px;
+  top: 36px;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #FFF;
+}
+
+.ru {
+  position: absolute;
+  width: 49px;
+  height: 25px;
+  left: 388px;
+  top: 42px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #FFF;
+}
+
+.ru__vector {
+  width: 11px;
+  height: 5.5px;
+}
+
+.inst {
+  position: absolute;
+  left: 52px;
+  top: 816px;
+}
+
+.vk {
+  position: absolute;
+  left: 107.01px;
+  top: 816px;
+}
+
+.facebook {
+  position: absolute;
+  left: 162.02px;
+  top: 816px;
+}
+
+.menu {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  left: 1354px;
+  top: 8px;
+}
+
+/* section_main*/
+.section_main {
+  width: 1440px;
+  height: 900px;
+}
+
+.model {
+  position: absolute;
+  left: 193px;
+  top: 174px;
+}
+ 
+.wrap__title {
+  position: absolute;
+  width: 475px;
+  height: 164px;
+  left: 796px;
+  top: 281px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  font-stretch: expanded;
+  color: #000;
+}
+
+.text {
+  position: absolute;
+  width: 467px;
+  height: 127px;
+  left: 796px;
+  top: 447px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: #000;
+}
+
+.button_next {
+  position: absolute;
+  width: 203px;
+  height: 44px;
+  left: 792px;
+  top: 622px;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 0px;
+  font-weight: medium;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+
+.section_main__link_catalog {
+  position: absolute;
+  width: 280px;
+  height: 44px;
+  left: 1015px;
+  top: 638px;
+  margin-left:40px;
+
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.vector {
+  left: 1296px;
+  top: 636px;
+  width: 43px;
+  margin-left: 19px;
+}
+
+.big-rectangle {
+  position: absolute;
+  width: 27px;
+  height: 46px;
+  left: 711px;
+  top: 819px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.small-rectangle {
+  position: absolute;
+  width: 2.45px;
+  height: 8.21px;
+  left: 723.27px;
+  top: 830.5px;
+  background: #000;
+  border-radius: 19px;
+}
