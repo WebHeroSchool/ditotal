@@ -537,6 +537,7 @@
   }
 
   .wrap__title {
+    width: 400px;
     left: 55%;
     font-size: 68px;
 
@@ -626,6 +627,7 @@
   .section_main__link_catalog {
     margin-left: 30px;
     top: 633px;
+    width: 250px;
   }
 
   .model {
@@ -673,7 +675,8 @@
   }
   .section_product__link_catalog {
     left: 70%;
-    width: 400px;
+    width: 260px;
+
   }
 
   .big-vector {
@@ -715,7 +718,7 @@
   
   .look__link_catalog {
     left: 70%;
-    width: 343px;
+    width: 260px;
     top: 80%;
   }
 
@@ -742,6 +745,7 @@
     line-height: 60px;
     top: 27%;
     left: 50%;
+    width: 358px;
   }
 
   .model {
@@ -846,7 +850,7 @@
 
   .look__link_catalog {
     left: 60%;
-    width: 320px;
+    width: 270px;
     top: 88%;
   }
 
@@ -914,12 +918,12 @@
     position: absolute;
     width: 297px;
     height: 103px;
-    left: 15%;
-    top: 72%;
+    left: 30%;
+    top: 77%;
     z-index: 1;      
     font-weight: bold;
     font-size: 50px;
-    line-height: 51px;
+    line-height: 53px;
   }
 
   .model {
@@ -976,6 +980,7 @@
 
   .product__title {
     left: 29px;
+    width: 260px;
     font-size: 20px;
     margin: 0;
   }
@@ -1137,6 +1142,12 @@
 
 @media (max-width: 480px) {
 
+  .wrap__title {
+    left: 18%;
+    top: 72%;
+    font-size: 48px;
+  }
+
   .product {
     left: 9%;
     top: 50%;
@@ -1200,7 +1211,7 @@
 
 }
 
-@media (max-width: 374px) {
+@media (min-width: 320px) and (max-width: 374px) {
 
   .header {
     height: 55px;
@@ -1217,7 +1228,9 @@
     left: 7px;
   }
   .wrap__title {
-    font-size: 38px;
+    left: 10%;
+    top: 73%;
+    font-size: 40px;
     line-height: 45px;
   }
 
