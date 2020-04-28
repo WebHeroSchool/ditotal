@@ -1,4 +1,4 @@
-/*body*/
+
 .body {
   position: relative;
   margin: 0 auto; 
@@ -93,7 +93,6 @@
  
 .wrap__title {
   position: absolute;
-  width: 475px;
   height: 164px;
   left: 796px;
   top: 281px;
@@ -172,7 +171,7 @@
 }
 
 .vector-adapt {
-  visibility: hidden;
+  display: none;
 }
 
 /* Section Product*/
@@ -213,7 +212,7 @@
 }
 
 .clutch {
-  visibility: hidden;
+  display: none;
 }
 .product__title {
   position: absolute;
@@ -478,7 +477,7 @@
   margin-left: 10px;
 }
 .last-big-vector {
-  visibility: hidden;
+  display: none;
 }
 
 .footer {
@@ -537,7 +536,6 @@
   }
 
   .wrap__title {
-    width: 400px;
     left: 55%;
     font-size: 68px;
 
@@ -723,11 +721,11 @@
   }
 
   .last-vector {
-    visibility: hidden;
+    display: none;  
   }
 
   .last-big-vector {
-    visibility: visible;
+    display: block;
   }
 
   .footer {
@@ -745,7 +743,6 @@
     line-height: 60px;
     top: 27%;
     left: 50%;
-    width: 358px;
   }
 
   .model {
@@ -786,7 +783,7 @@
   }
 
   .big-clutch {
-    visibility: hidden;
+    display: none;
   }
 
   .product {
@@ -880,29 +877,29 @@
   }
 
   .ru {
-    visibility: hidden;
+    display: none;
   }
 
   .social-icons {
-    visibility: hidden;
+    display: none;
   }
 
   .text {
-    visibility: hidden;
+    display: none;
   }
   .button_next {
-    visibility: hidden;
+    display: none;
   }
 
   .section_main__link_catalog {
-    visibility: hidden;
+    display: none;
   }
   .mouse {
-    visibility: hidden;
+    display: none;
   }
 
   .links__item {
-    visibility: hidden;
+    display: none;
   }
   .menu_icon {
     display: flex;
@@ -927,19 +924,19 @@
   }
 
   .model {
-    visibility: hidden;
+    display: none;
   }
 
   .model-mobi {
+    visibility: visible;
     position: relative;
     top: 10px;
-    visibility: visible;
     width: 100%; 
     height: auto;
   }
 
   .vector-adapt {
-    visibility: visible;
+    display: block;
     position: absolute;
     width: 28px;
     height: 14px;
@@ -948,7 +945,7 @@
   }
 
   .section_main__link_catalog {
-    visibility: hidden;
+    display: none;
   }
   .section_product {
     top: 100%;
@@ -957,11 +954,11 @@
   }
 
   .small-clutch {
-    visibility: hidden;
+    display: none;
   }
 
   .big-clutch {
-    visibility: hidden;
+    display: none;
   }
 
   .clutch {
@@ -1040,7 +1037,7 @@
   }
 
   .product__add {
-    visibility: hidden;
+    display: none;
   }
 
   .button {
@@ -1051,7 +1048,7 @@
     border: 1px solid #000000;
   }
   .section_product__link_catalog {
-    visibility: hidden;
+    display: none;
   }
   .line {
     width: 41px;
@@ -1065,10 +1062,10 @@
   }
 
   .look__img {
-    visibility: hidden;
+    display: none;
   }
   .look__img_adapt {
-    visibility: visible;
+    display: block;
     position: absolute;
     z-index: 1;
     left: 8%;
@@ -1107,7 +1104,7 @@
   }
 
   .look__wrap_add {
-    visibility: hidden;
+    display: none;
   }
   .look__wrap_button {
     width: 260px;
@@ -1127,22 +1124,23 @@
   }
 
   .last-vector {
-    visibility: hidden;
+    display: none;
     width: 0;
     height: 0;
   }
 
   .last-big-vector {
-    visibility: visible;
+    display: block;
   }
   .footer {
-    visibility: hidden;
+    display: none;
   }
 }
 
 @media (max-width: 480px) {
 
   .wrap__title {
+    width: 250px;
     left: 18%;
     top: 72%;
     font-size: 48px;
@@ -1156,7 +1154,7 @@
   }
 
   .clutch {
-    visibility: visible;
+    display: block;
     left: 20%;
   }
 
