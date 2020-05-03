@@ -929,7 +929,7 @@
     left: 12%;
     top: 40%;
     width: 78%;
-    height: 50%;
+    height: 45%;
   }
 
   .product__title {
@@ -941,17 +941,16 @@
 
   .title_autumn {
     left: 31px;
-    top: 44px;
+    top: 47px;
     font-size: 12px;
     margin: 0;
   }
 
   .product__desc {
-    width: 85%;
-    height: 84px;
     left: 31px;
     top: 18%;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 25px;
   }
 
   .clutch-color_gray {
@@ -983,24 +982,22 @@
   }
 
   .price {
-    width: 70.44px;
-    height: 32.19px;
     left: 70%;
-    top: 63%;
-    font-size: 20px;
+    top: 65%;
+    font-size: 21px;
     margin: 0;
   }
 
   .product__add {
-    display: none;
+    top: 80%
   }
 
   .button {
-    left: 10%;
+    left: 32%;
     top: 80%;
-    width: 80%;
-    height: 11%;
-    border: 1px solid #000000;
+    width: 60%;
+    height: 44px;
+    border: 1.5px solid #000000;
   }
   .section_product__link_catalog {
     display: none;
@@ -1045,7 +1042,7 @@
     height: 14%;
     left: 10%;
     top: 74%; 
-    border: 1px solid #000000;
+    border: 1.5px solid #000000;
   }
 
   .look__link_catalog {
@@ -1084,6 +1081,31 @@
     display: none;
   }
 
+  .product {
+    height: 50%;
+  }
+
+  .product__desc {
+    width: 85%;
+    font-size: 14px;
+  }
+
+  .price {
+    top: 63%;
+    font-size: 20px;
+  }
+
+  .product__add {
+    display: none;
+  }
+
+  .button {
+    left: 10%;
+    width: 80%;
+    height: 40px;
+    border: 1px solid #000000;
+  }
+
   .look__img {
     display: none;
   }
@@ -1094,6 +1116,10 @@
     z-index: 1;
     left: 8%;
     top: 5%;
+  }
+
+  .look__wrap_button {
+    border: 1px solid #000000;
   }
 }
 
