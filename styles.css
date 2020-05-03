@@ -18,21 +18,16 @@
 
 .logo {
   position: absolute;
-  width: 98px;
-  height: 37px;
   left: 11.3%;
   top: 36px;
   font-size: 30px;
   text-transform: uppercase;
-  text-align: center;
   letter-spacing: 0.07em;
   color: #FFF;
 }
 
 .ru {
   position: absolute;
-  width: 49px;
-  height: 25px;
   left: 388px;
   top: 42px;
   text-transform: uppercase;
@@ -40,11 +35,6 @@
   line-height: 24px;
   text-align: right;
   color: #FFF;
-}
-
-.ru__vector {
-  width: 11px;
-  height: 5.5px;
 }
 
 .inst {
@@ -67,8 +57,6 @@
 
 .menu {
   position: absolute;
-  width: 92px;
-  height: 92px;
   left: 1348px;
 }
 .menu_icon {
@@ -93,21 +81,18 @@
  
 .wrap__title {
   position: absolute;
-  height: 164px;
   left: 796px;
   top: 281px;
   margin: 0;
   font-weight: bold;
   font-size: 80px;
   line-height: 80px;
-  font-stretch: expanded;
   color: #000;
 }
 
 .text {
   position: absolute;
   width: 467px;
-  height: 127px;
   left: 796px;
   top: 447px;
   font-weight: normal;
@@ -216,8 +201,6 @@
 }
 .product__title {
   position: absolute;
-  width: 340px;
-  height: 41px;
   left: 56px;
   top: 11px;
   font-weight: bold;
@@ -227,8 +210,6 @@
 
 .title_autumn {
   position: absolute;
-  width: 220px;
-  height: 17px;
   left: 55px;
   top: 84px;
   text-transform: uppercase;
@@ -243,7 +224,6 @@
 .product__desc {
   position: absolute;
   width: 375px;
-  height: 148px;
   left: 55px;
   top: 167px;
   line-height: 21px;
@@ -255,8 +235,6 @@
 
 .price {
   position: absolute;
-  width: 125px;
-  height: 57px;
   left: 288px;
   top: 319px;
   font-weight: bold;
@@ -366,7 +344,7 @@
 }
 
 .look__img_adapt {
-  visibility: hidden;
+  display: none;
 }
 .line {
   position: absolute;
@@ -388,8 +366,6 @@
 
 .look__title {
   position: absolute;
-  width: 375px;
-  height: 41px;
   left: 47px;
   top: 9px;
   font-weight: bold;
@@ -401,8 +377,6 @@
 
 .look__title_autumn {
   position: absolute;
-  width: 220px;
-  height: 17px;
   left: 47px;
   top: 82px;
   font-weight: bold;
@@ -416,7 +390,6 @@
 .look__wrap_desc {
   position: absolute;
   width: 368px;
-  height: 101px;
   left: 50px;
   top: 134px;
   font-weight: normal;
@@ -442,7 +415,6 @@
   top: 262px;
   text-transform: uppercase;
   border: 1.5px solid #000000;
-  box-sizing: border-box;
   background: #FAE8E4;
 }
 
@@ -461,8 +433,6 @@
 
 .look__link_catalog {
   position: absolute;
-  width: 420px;
-  height: 14px;
   left: 948px;
   top: 643px;
   font-size: 13px;
@@ -482,15 +452,12 @@
 
 .footer {
   position: absolute;
-  width: 210px;
-  height: 22px;
   left: 1210px;
   top: 2665px;
   display: flex;
   align-items: flex-start;
   font-weight: bold;
   font-size: 12px;
-  line-height: 15px;
   text-transform: uppercase;
 }
 
@@ -954,49 +921,37 @@
   }
 
   .small-clutch {
-    display: none;
-  }
-
-  .big-clutch {
-    display: none;
-  }
-
-  .clutch {
-    position: absolute;
-    visibility: visible;
-    left: 30%;
-    top: 0;
+    top: 3%;
+    left: 19%;
   }
 
   .product {
     left: 12%;
-    top: 320px;
-    width: 60%;
-    height: 38%;
+    top: 40%;
+    width: 78%;
+    height: 50%;
   }
 
   .product__title {
     left: 29px;
     width: 260px;
-    font-size: 20px;
+    font-size: 23px;
     margin: 0;
   }
 
   .title_autumn {
     left: 31px;
     top: 44px;
-    font-size: 10px;
+    font-size: 12px;
     margin: 0;
-    letter-spacing: 0.07em;
   }
 
   .product__desc {
     width: 85%;
     height: 84px;
     left: 31px;
-    top: 20%;
-    font-size: 10px;
-    line-height: 14px;
+    top: 18%;
+    font-size: 14px;
   }
 
   .clutch-color_gray {
@@ -1044,7 +999,7 @@
     left: 10%;
     top: 80%;
     width: 80%;
-    height: 37px;
+    height: 11%;
     border: 1px solid #000000;
   }
   .section_product__link_catalog {
@@ -1061,56 +1016,35 @@
     height: 100%;
   }
 
-  .look__img {
-    display: none;
-  }
-  .look__img_adapt {
-    display: block;
-    position: absolute;
-    z-index: 1;
-    left: 8%;
-    top: 5%;
-  }
-
   .look__wrap {
-    width: 305px;
-    height: 195px;
+    width: 63%;
+    height: 31%;
     left: 16%;
     top: 41%;
   }
   .look__title {
-    width: 245.53px;
-    height: 26.87px;
-    left: 30px;
-    top: 9px;
-    font-size: 20px;
+    font-size: 23px;
     margin: 0; 
   }
   .look__title_autumn {
-    left: 31px;
     top: 44px;
-    font-size: 10px;
+    font-size: 12px;
     margin: 0;
-    letter-spacing: 0.07em;
   }
 
  .look__wrap_desc {
-    width: 228px;
-    height: 66px;
-    left: 31px;
-    top: 60px;
-    font-size: 9px;
-    line-height: 13px;
+    width: 80%;
+    top: 27%;
   }
 
   .look__wrap_add {
     display: none;
   }
   .look__wrap_button {
-    width: 260px;
-    height: 37px;
-    left: 32px;
-    top: 130px;  
+    width: 80%;
+    height: 14%;
+    left: 10%;
+    top: 74%; 
     border: 1px solid #000000;
   }
 
@@ -1137,6 +1071,33 @@
   }
 }
 
+@media (max-width: 620px) {
+
+  .clutch {
+    display: block;
+    position: absolute;
+    left: 30%;
+    top: 0;
+  }
+
+  .small-clutch {
+    display: none;
+  }
+
+  .look__img {
+    display: none;
+  }
+
+  .look__img_adapt {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 8%;
+    top: 5%;
+  }
+}
+
+
 @media (max-width: 480px) {
 
   .wrap__title {
@@ -1148,13 +1109,25 @@
 
   .product {
     left: 9%;
-    top: 50%;
-    width: 320px;
-    height: 271px;
+    top: 48%;
+    height: 45%;
+  }
+
+  .product__title {
+    font-size: 20px;
+  }
+
+  .title_autumn {
+    font-size: 10px;
+  }
+
+  .product__desc {
+    top: 20%;
+    font-size: 11px;
+    line-height: 14px;
   }
 
   .clutch {
-    display: block;
     left: 20%;
   }
 
@@ -1178,29 +1151,34 @@
     height: 21.89px;
   }
 
-  .price {
-    left: 210px;
-  }
-
-  .button {
-    width: 240px;
-    height: 33px;
-  }
-
   .look__img_adapt {
     left: 3%;
-    top: 5%;
   }
 
   .look__wrap {
-    width: 300px;
-    height: 185px;
+    width: 72%;
     left: 14%;
   }
 
-  .look__wrap_button {
-    width: 230px;
-    height: 30px;
+  .look__title {
+    width: 245.53px;
+    height: 26.87px;
+    left: 30px;
+    top: 9px;
+    font-size: 18px;
+  }
+
+  .look__title_autumn {
+    left: 31px;
+    font-size: 10px;
+  }
+
+   .look__wrap_desc {
+    height: 66px;
+    left: 31px;
+    top: 60px;
+    font-size: 9px;
+    line-height: 13px;
   }
 
   .line {
@@ -1241,6 +1219,7 @@
     left: 8%;
     top: 42%;
     width: 265px;
+    height: 271px;
   }
 
   .product__title {
