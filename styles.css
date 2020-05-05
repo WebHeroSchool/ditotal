@@ -1342,3 +1342,207 @@
   }
 
 }
+
+@media (max-width: 319px) {
+
+  .clutch {
+    width: 50%;
+  }
+
+  .product {
+    height: 57%;
+    top: 40%;
+  }
+
+  .wrap__title {
+    width: 180px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .product__title {
+    width: auto;
+    font-size: 16px;
+  }
+
+  .title_autumn {
+    top: 40px;
+  }
+
+  .product__desc {
+    font-size: 9px;
+    line-height: 11px;
+  }
+  .clutch-color_gray {
+    width: 20.35px;
+    height: 19.89px;
+  }
+
+  .clutch-color_pink {
+    width: 25.39px;
+    height: 25px;
+    left: 62.49px;
+  }
+
+  .clutch-color_purple {
+    width: 20.35px;
+    height: 19.89px;
+    left: 96px;
+  }
+
+  .clutch-color_green {
+    width: 20.35px;
+    height: 19.89px;
+    left: 125px;
+  }
+
+  .button {
+    height: 30px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .look__img_adapt {
+    width: 80%;
+  }
+
+  .look__wrap {
+    height: 39%;
+    width: 76%;
+  }
+
+  .look__title {
+    font-size: 16px;
+  }
+
+  .look__title_autumn {
+    top: 40px;
+  }
+
+  .look__wrap_desc {
+    top: 56px;
+  }
+
+  .look__wrap_button {
+    width: 168px;
+  }
+
+  .look__link_catalog {
+    width: auto;
+    font-size: 11px;
+    left: 48%;
+  }
+}
+
+@media (max-width: 279px) {
+  .header {
+    height: 59px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .burger {
+    width: 60px;
+  }
+
+  .wrap__title {
+    font-size: 26px;
+    line-height: 30px;
+    width: 155px;
+    left: 22%;
+  }
+  .product__title {
+    font-size: 17px;
+    left: 21px;
+    top: 2px;
+  }
+
+  .title_autumn {
+    font-size: 8px;
+    left: 21px;
+    top: 28px;
+  }
+
+  .product__desc {
+    left: 21px;
+    top: 37px;
+    font-size: 8px;
+  }
+
+  .clutch-color_gray {
+    width: 16.35px;
+    height: 15.89px;
+    top: 70%;
+  }
+  .clutch-color_pink {
+    width: 19.39px;
+    height: 19px;
+    left: 56.49px;
+    top: 69%;
+  }
+  .clutch-color_purple {
+    width: 16.35px;
+    height: 15.89px;
+    left: 81px;
+    top: 70%;
+  }
+
+  .clutch-color_green {
+    width: 16.35px;
+    height: 15.89px;
+    left: 102px;
+    top: 70%;
+  }
+
+  .price {
+    font-size: 12px;
+  }
+
+  .button {
+    height: 26px;
+    font-size: 10px;
+  }
+
+  .look__title {
+    left: 20px;
+    width: auto;
+  }
+
+  .look__title_autumn {
+    left: 20px;
+    font-size: 8px;
+  }
+
+  .look__wrap_desc {
+    left: 20px;
+    top: 50px;
+    line-height: 10px;
+  }
+
+  .look__wrap_button {
+    width: 79%;
+    font-size: 10px;
+  }
+
+  .look__link_catalog {
+    left: 44%;
+    font-size: 9px;
+    line-height: 12px;
+    top: 83%;
+  }
+  .last-big-vector {
+    width: 60%;
+  }
+}
+
+
+
+
+  
+
+
+
+
